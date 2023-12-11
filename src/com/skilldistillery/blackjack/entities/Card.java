@@ -14,6 +14,10 @@ public class Card {
 		this.suit = suit;
 	}
 
+	public Card(Card dealCard) {
+		// TODO Auto-generated constructor stub
+	}
+
 	@Override
 	public int hashCode() {
 		return Objects.hash(rank, suit);
@@ -46,5 +50,9 @@ public class Card {
 	public int getValue() {
 		return rank.getValue();
 	}
+	
+	
+	
+	
 
 }

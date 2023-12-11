@@ -29,7 +29,10 @@ public class Deck {
 	}
 	
 	public Card dealCard() {
+		this.shuffle();
 		return cards.remove(0);
 	}
 
 }
+
+
